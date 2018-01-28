@@ -9,7 +9,7 @@ RUN apk add --no-cache autoconf \
     git \
     openssl-dev
 
-RUN git clone https://github.com/bitzeny/cpuminer.git
+RUN git clone https://github.com/macchky/cpuminer.git
 
 WORKDIR cpuminer
 
